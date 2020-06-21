@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="2500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.powerdropship.powerdropship.JobEditDialogController">
+    <children>
+        <ScrollPane hbarPolicy="NEVER" layoutY="1.0" prefHeight="1000.0" prefWidth="311.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+                <AnchorPane prefHeight="2499.0" prefWidth="578.0">
+                    <children>
+                        <GridPane layoutX="17.0" layoutY="12.0" prefHeight="2431.0" prefWidth="560.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="338.0" minWidth="10.0" prefWidth="310.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="321.0" minWidth="10.0" prefWidth="250.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <Label prefHeight="5.0" prefWidth="76.0" text="*Job Name:" GridPane.rowIndex="1" />
+                                <TextField fx:id="jobNameField" prefHeight="17.0" prefWidth="213.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                <Label text="*Update File Name:" GridPane.rowIndex="20" />
+                                <Label text="*Update File Prod ID Col:" GridPane.rowIndex="21" />
+                                <Label text="*Update File Price Col:" GridPane.rowIndex="24" />
+                                <Label text="Update File MAP Price Col:" GridPane.rowIndex="28" />
+                                <Label prefHeight="18.0" prefWidth="173.0" text="*Update File Prod Upc Col:" GridPane.rowIndex="22" />
+                                <Label text="Update File FTP Download  Url:" GridPane.rowIndex="15" />
+                                <Label text="Update File FTP User:" GridPane.rowIndex="16" />
+                                <Label text="Update File FTP Pass:" GridPane.rowIndex="17" />
+                                <Label text="*Price Multiplier:" GridPane.rowIndex="42" />
+                                <Label text="Price Multiplier (MAP):" GridPane.rowIndex="43" />
+                                <Label text="Price Tier 1 Start:" GridPane.rowIndex="44" />
+                                <Label text="Price Tier 1 End:" GridPane.rowIndex="45" />
+                                <Label text="Price Tier 1 Multiplier:" GridPane.rowIndex="46" />
+                                <Label text="Price Tier 2 Start:" GridPane.rowIndex="47" />
+                                <Label text="Price Tier 2 End:" GridPane.rowIndex="48" />
+                                <Label text="Price Tier 2 Multiplier:" GridPane.rowIndex="49" />
+                                <Label text="Price Tier 3 Start:" GridPane.rowIndex="50" />
+                                <Label text="Price Tier 3 End:" GridPane.rowIndex="51" />
+                                <Label text="Price Tier 3 Multiplier:" GridPane.rowIndex="52" />
+                                <Label text="Price Tier 4 Start:" GridPane.rowIndex="53" />
+                                <Label text="Price Tier 4 End:" GridPane.rowIndex="54" />
+                                <Label text="*Db IP Address:" GridPane.rowIndex="34" />
+                                <Label text="*Db User:" GridPane.rowIndex="36" />
+                                <Label text="*Db Pass:" GridPane.rowIndex="37" />
+                                <Label text="Price Tier 4 Multiplier:" GridPane.rowIndex="55" />
+                                <TextField fx:id="updateFileNameField" GridPane.columnIndex="1" GridPane.rowIndex="20" />
+                                <TextField fx:id="updateFileProdIDColField" GridPane.columnIndex="1" GridPane.rowIndex="21" />
+                                <TextField fx:id="updateFilePriceColField" GridPane.columnIndex="1" GridPane.rowIndex="24" />
+                                <TextField fx:id="updateFileMAPPriceColField" GridPane.columnIndex="1" GridPane.rowIndex="28" />
+                                <TextField fx:id="updateFileProdUpcColField" GridPane.columnIndex="1" GridPane.rowIndex="22" />
+                                <TextField fx:id="updateFileFTPUrlField" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                                <TextField fx:id="updateFileFTPUserField" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+                                <TextField fx:id="updateFileFTPPassField" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+                                <TextField fx:id="priceMultiplierField" GridPane.columnIndex="1" GridPane.rowIndex="42" />
+                                <TextField fx:id="priceMultiplierMAPField" GridPane.columnIndex="1" GridPane.rowIndex="43" />
+                                <TextField fx:id="priceTier1StartField" GridPane.columnIndex="1" GridPane.rowIndex="44" />
+                                <TextField fx:id="priceTier1EndField" GridPane.columnIndex="1" GridPane.rowIndex="45" />
+                                <TextField fx:id="priceTier1MultiplierField" GridPane.columnIndex="1" GridPane.rowIndex="46" />
+                                <TextField fx:id="priceTier2StartField" GridPane.columnIndex="1" GridPane.rowIndex="47" />
+                                <TextField fx:id="priceTier2EndField" GridPane.columnIndex="1" GridPane.rowIndex="48" />
+                                <TextField fx:id="priceTier2MultiplierField" GridPane.columnIndex="1" GridPane.rowIndex="49" />
+                                <TextField fx:id="priceTier3StartField" GridPane.columnIndex="1" GridPane.rowIndex="50" />
+                                <TextField fx:id="priceTier3EndField" GridPane.columnIndex="1" GridPane.rowIndex="51" />
+                                <TextField fx:id="priceTier3MultiplierField" GridPane.columnIndex="1" GridPane.rowIndex="52" />
+                                <TextField fx:id="priceTier4StartField" GridPane.columnIndex="1" GridPane.rowIndex="53" />
+                                <TextField fx:id="priceTier4EndField" GridPane.columnIndex="1" GridPane.rowIndex="54" />
+                                <TextField fx:id="priceTier4MultiplierField" GridPane.columnIndex="1" GridPane.rowIndex="55" />
+                                <TextField fx:id="dbIPAddressField" GridPane.columnIndex="1" GridPane.rowIndex="34" />
+                                <TextField fx:id="dbUserField" GridPane.columnIndex="1" GridPane.rowIndex="36" />
+                                <TextField fx:id="dbPassField" GridPane.columnIndex="1" GridPane.rowIndex="37" />
+                                <Label text="Remote Cart Db" GridPane.rowIndex="33">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Price" GridPane.rowIndex="41">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Remote Update File" GridPane.rowIndex="13">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Job Details (*required)">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                        <Label text="Ssh User:" GridPane.rowIndex="38" />
+                        <Label text="Ssh Pass:" GridPane.rowIndex="39" />
+                        <Label text="*Db Name:" GridPane.rowIndex="35" />
+                        <TextField fx:id="sshUserField" GridPane.columnIndex="1" GridPane.rowIndex="38" />
+                        <TextField fx:id="sshPassField" GridPane.columnIndex="1" GridPane.rowIndex="39" />
+                        <TextField fx:id="dbNameField" GridPane.columnIndex="1" GridPane.rowIndex="35" />
+                        <Label text="*Update File Qty Col (separate with &quot;,&quot;):" GridPane.rowIndex="23" />
+                        <TextField fx:id="updateFileQtyColField" GridPane.columnIndex="1" GridPane.rowIndex="23" />
+                        <Label text="*Supplier Name:" GridPane.rowIndex="2" />
+                        <Label text="*Supplier Order Email (test with your own):" GridPane.rowIndex="3" />
+                        <TextField fx:id="jobSupplierNameField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextField fx:id="jobSupplierOrderEmailField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label text="Delay Duration:" GridPane.rowIndex="10" />
+                        <Label text="*Repeat Interval (Minutes):" GridPane.rowIndex="11" />
+                        <TextField fx:id="delayDurationField" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <TextField fx:id="repeatIntervalField" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <Label text="Schedule" GridPane.rowIndex="9">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="*Your Company Name:" GridPane.rowIndex="4" />
+                        <Label text="*Your Admin Email:" GridPane.rowIndex="5" />
+                        <TextField fx:id="jobYourCompanyNameField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <TextField fx:id="jobYourCompanyEmailAddressField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label text="*Update File Separator (comma = 44, tab = 9):" GridPane.rowIndex="26" />
+                        <Label text="*Update File No. Beginning Rows To Skip:" GridPane.rowIndex="25" />
+                        <TextField fx:id="updateFileSeparatorField" GridPane.columnIndex="1" GridPane.rowIndex="26" />
+                        <TextField fx:id="updateFileBeginningRowsToSkipField" GridPane.columnIndex="1" GridPane.rowIndex="25" />
+                        <Label text="*Your Admin Email IP Address:" GridPane.rowIndex="7" />
+                        <TextField fx:id="jobYourCompanyEmailIpAddressField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Label text="*Your Admin Email Password:" GridPane.rowIndex="6" />
+                        <TextField fx:id="jobYourCompanyEmailPasswordField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <Label text="Tracking File" GridPane.rowIndex="57">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="Tracking Email Keyword:" GridPane.rowIndex="59" />
+                        <Label text="Csv Separator (comma = 44, tab = 9):" GridPane.rowIndex="60" />
+                        <Label text="Beginning Rows To Skip:" GridPane.rowIndex="61" />
+                        <Label text="Order ID. Col. Name:" GridPane.rowIndex="63" />
+                        <Label text="Tracking Number Col. Name:" GridPane.rowIndex="64" />
+                        <TextField fx:id="trackingEmailKeywordField" GridPane.columnIndex="1" GridPane.rowIndex="59" />
+                        <TextField fx:id="trackingCsvSeparatorField" GridPane.columnIndex="1" GridPane.rowIndex="60" />
+                        <TextField fx:id="trackingBeginningRowsToSkipField" GridPane.columnIndex="1" GridPane.rowIndex="61" />
+                        <TextField fx:id="trackingOrderIdColNameField" GridPane.columnIndex="1" GridPane.rowIndex="63" />
+                        <TextField fx:id="trackingNumberColNameField" GridPane.columnIndex="1" GridPane.rowIndex="64" />
+                        <Label text="Tracking From Email:" GridPane.rowIndex="58" />
+                        <TextField fx:id="trackingEmailFromField" GridPane.columnIndex="1" GridPane.rowIndex="58" />
+                        <Label text="Update File Set Removed Prods To &quot;Pending&quot;:" GridPane.rowIndex="30" />
+                        <TextField fx:id="updateFileSetRemovedProdsToPendingField" GridPane.columnIndex="1" GridPane.rowIndex="30" />
+                        <Label text="Update File Comment Indicator:" GridPane.rowIndex="27" />
+                        <TextField fx:id="updateFileCommentIndicatorField" GridPane.columnIndex="1" GridPane.rowIndex="27" />
+                        <Label text="Comment Indicator:" GridPane.rowIndex="62" />
+                        <TextField fx:id="trackingCommentIndicatorField" GridPane.columnIndex="1" GridPane.rowIndex="62" />
+                        <Label text="Update File Update All Prods To &quot;Pending&quot;:" GridPane.rowIndex="31" />
+                        <TextField fx:id="updateFileUpdateAllProdsToPendingField" GridPane.columnIndex="1" GridPane.rowIndex="31" />
+                        <Label text="Discount File" GridPane.rowIndex="66">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text="Discount File Name:" GridPane.rowIndex="67" />
+                        <Label text="Discount File Discount ID Col:" GridPane.rowIndex="68" />
+                        <TextField fx:id="discountFileNameField" GridPane.columnIndex="1" GridPane.rowIndex="67" />
+                        <TextField fx:id="discountFileDiscountIDColField" GridPane.columnIndex="1" GridPane.rowIndex="68" />
+                        <Label text="Discount Column Name (ie. 20 = 20%):" GridPane.rowIndex="69" />
+                        <TextField fx:id="discountColumnNameField" GridPane.columnIndex="1" GridPane.rowIndex="69" />
+                        <Label prefHeight="19.0" prefWidth="178.0" text="Update File Discount ID Col:" GridPane.rowIndex="29" />
+                        <TextField fx:id="updateFileDiscountIDColField" GridPane.columnIndex="1" GridPane.rowIndex="29" />
+                        <Label text="Update File Email From:" GridPane.rowIndex="18" />
+                        <Label text="Update File Email Title Keyword:" GridPane.rowIndex="19" />
+                        <TextField fx:id="updateFileEmailFromField" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+                        <TextField fx:id="updateFileEmailKeywordField" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+                        <Label text="Choose either FTP or Email to get the Update File" GridPane.rowIndex="14" />
+                            </children>
+                        </GridPane>
+                        <ButtonBar layoutX="497.0" layoutY="2455.0" prefHeight="30.0" prefWidth="76.0">
+                            <buttons>
+                                <Button mnemonicParsing="false" onAction="#handleOk" text="Ok" />
+                            </buttons>
+                        </ButtonBar>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
